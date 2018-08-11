@@ -42,9 +42,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void initialProducts() {
         products = new ArrayList<>();
-        products.add(new Product("prod_1", "В RxJava 2 также появился новый метод subscribeWith, который похож на subscribe из RxJava 1. Он возвращает Disposable.", 100, 1));
-        products.add(new Product("prod_2", "Вместо этого есть возможность использовать DisposableObserver, который автоматически обработает этот четвёртый метод, так что вам достаточно будет позаботиться лишь об уведомлениях от самого ", 200, 2));
-        products.add(new Product("prod_3", "По аналогии с составной подпиской из RxJava есть и составной Disposable: вы можете подписаться на несколько источников, взять возвращаемые Disposable, добавить их в CompositeDisposable и одновременно отписаться от всех потоков.", 300, 3));
+        products.add(new Product("item 1", "В RxJava 2 также появился новый метод subscribeWith, который похож на subscribe из RxJava 1. Он возвращает Disposable.", 100, 1));
+        products.add(new Product("item 2", "Вместо этого есть возможность использовать DisposableObserver, который автоматически обработает этот четвёртый метод, так что вам достаточно будет позаботиться лишь об уведомлениях от самого ", 200, 2));
+        products.add(new Product("item 3", "По аналогии с составной подпиской из RxJava есть и составной Disposable: вы можете подписаться на несколько источников, взять возвращаемые Disposable, добавить их в CompositeDisposable и одновременно отписаться от всех потоков.", 300, 3));
     }
 
     private void initialFragment() {

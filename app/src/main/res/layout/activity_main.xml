@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    tools:context=".MainActivity"
+    android:id="@+id/ma_container">
+
+
+    <fragment
+        android:id="@+id/fragment_products"
+        android:name="kz.exampleandroid.tom.hw_fragments.ProductFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        />
+
+
+    <fragment
+        android:id="@+id/fragment_item_description"
+        android:name="kz.exampleandroid.tom.hw_fragments.ItemDescriptionFragent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+</LinearLayout>
